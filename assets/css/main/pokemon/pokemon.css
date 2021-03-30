@@ -1,0 +1,11 @@
+.pokemon {
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #000;
+    margin: 0 2.5rem;
+    /*background-image: url("../../../img/pokemon-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+    background: #fff;
+}

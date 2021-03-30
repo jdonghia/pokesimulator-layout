@@ -1,0 +1,11 @@
+.pokemon__health-bar {
+    text-align: center;
+    width: 13rem;
+    background: greenyellow;
+    border-radius: 1px;
+    border: 1px solid #000;
+    margin-top: .5rem;
+    font-size: .75rem;
+    padding: .2rem;
+    vertical-align: middle;
+}

@@ -1,0 +1,8 @@
+.player-status__container {
+    padding: .98rem .7rem;
+    
+}
+
+.player-status__container:not(.player-status__container--last){
+    border-bottom: 1px solid black;
+}

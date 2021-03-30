@@ -1,0 +1,4 @@
+.pokemon__card {
+    display: flex;
+    margin-bottom: 1rem;
+}

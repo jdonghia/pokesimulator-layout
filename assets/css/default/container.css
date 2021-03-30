@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+        "header   header   header  header"
+        "main     main     main    aside"
+        "main     main     main    aside"
+        "footer   footer   footer  aside"
+    ;
+    grid-template-rows: 1fr 30% 32% 31%;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.header {
+    grid-area: header;
+   
+}
+
+.main {
+    grid-area: main;
+  
+}
+
+.aside {
+    grid-area: aside;
+   
+}
+
+.footer {
+    grid-area: footer;
+
+}

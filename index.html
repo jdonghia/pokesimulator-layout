@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pokemon</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="./assets/css/default/normalize.css">
+    <link rel="stylesheet" href="./assets/css/default/reset.css">
+    <link rel="stylesheet" href="./assets/css/default/container.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/header/header__title.css">
+    <link rel="stylesheet" href="./assets/css/header/header__nav.css">
+    <link rel="stylesheet" href="./assets/css/header/header__actions.css">
+    <link rel="stylesheet" href="./assets/css/header/header__action.css">
+    <link rel="stylesheet" href="./assets/css/header/header__button.css">
+
+    <link rel="stylesheet" href="./assets/css/main/main.css">
+    <link rel="stylesheet" href="./assets/css/main/battleArena/battleArena.css">
+    <link rel="stylesheet" href="./assets/css/main/battleArena/battleArena__intro.css">
+    <link rel="stylesheet" href="./assets/css/main/battleArena/battleArena__title.css">
+
+
+    <link rel="stylesheet" href="./assets/css/main/pokemon/pokemons.css">
+    <link rel="stylesheet" href="./assets/css/main/pokemon/pokemon.css">
+    <link rel="stylesheet" href="./assets/css/main/pokemon/pokemon__card.css">
+    <link rel="stylesheet" href="./assets/css/main/pokemon/pokemon__img.css">
+    <link rel="stylesheet" href="./assets/css/main/pokemon/pokemon__status.css">
+    <link rel="stylesheet" href="./assets/css/main/pokemon/pokemon__healthText.css">
+    <link rel="stylesheet" href="./assets/css/main/pokemon/pokemon__healthBar.css">
+
+    <link rel="stylesheet" href="./assets/css/playerStatus/playerStatus.css">
+    <link rel="stylesheet" href="./assets/css/playerStatus/playerStatus__container.css">
+    <link rel="stylesheet" href="./assets/css/playerStatus/playerStatus__info.css">
+    <link rel="stylesheet" href="./assets/css/playerStatus/playerStatus__item.css">
+    <link rel="stylesheet" href="./assets/css/playerStatus/playerStatus__pokemon.css">
+
+    <link rel="stylesheet" href="./assets/css/chatLog/chatLog__title.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <header class="header">
+            <h1 class="header__title">PokeApp</h1>
+            <nav class="header__nav">
+                <ul class="header__actions">
+                    <li class="header__action"><button class="header__button">Fight a wild Pokémon</button></li>
+                    <li class="header__action"><button class="header__button">Buy Items</button></li>
+                    <li class="header__action"><button class="header__button">Pokédex</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="main battle-arena">
+            <div class="battle-arena__intro">
+                <h2 class="battle-arena__title">Battle Arena</h2>
+                <button class="battle-arena__button">Go!</button>
+            </div>
+            <div class="pokemons">
+                <div class="pokemon">
+                    <div class="pokemon__card">
+                        <img class="pokemon__img" src="./assets/img/charmander.png" alt="Player pokemon">
+                        <div class="pokemon__status">
+                            <h1 class="pokemon__lv-name">Example Lv.XX</h1>
+                            <span class="pokemon__health-text">XX/XX</span>
+                            <span class="pokemon__health-bar">%XX</span>
+                        </div>
+                    </div>
+
+                    <div class="pokemon__attacks">
+                        <h2 class="attacks__title">Example's attacks:</h2>
+                        <ul class="attacks">
+                            <li class="attacks__name">Example</li>
+                            <li class="attacks__name">Example</li>
+                            <li class="attacks__name">Example</li>
+                            <li class="attacks__name">Example</li>
+                            <li class="attacks__name">Example</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pokemon">
+                    <div class="pokemon__card">
+                        <img class="pokemon__img" src="./assets/img/bulbasaur.png" alt=" Player pokemon">
+                        <div class="pokemon__status">
+                            <h1 class="pokemon__lv-name">Example Lv.XX</h1>
+                            <span class="pokemon__health-text">XX/XX</span>
+                            <span class="pokemon__health-bar">%XX</span>
+                        </div>
+
+                    </div>
+
+                    <div class="pokemon__attacks">
+                        <h2 class="pokemon__attacks-title">Example's attacks:</h2>
+                        <ul>
+                            <li class="pokemon__attack">Example</li>
+                            <li class="pokemon__attack">Example</li>
+                            <li class="pokemon__attack">Example</li>
+                            <li class="pokemon__attack">Example</li>
+                            <li class="pokemon__attack">Example</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <aside class="aside player-status">
+            <div class="player-status__container">
+                <ul class="player-status__infos">
+                    <li class="player-status__info">Name:</li>
+                    <li class="player-status__info">Money:</li>
+                    <li class="player-status__info">Fights:</li>
+                    <li class="player-status__info">Wins:</li>
+                    <li class="player-status__info">Catches:</li>
+                    <li class="player-status__info">Losses/Flees:</li>
+                    <li class="player-status__info">Win Percentage:</li>
+                    <li class="player-status__info">In Pokédex:</li>
+                    <li class="player-status__info">Items:</li>
+                </ul>
+            </div>
+            <div class="player-status__container">
+                <ul class="player-status__items">
+                    <li class="player-status__item">Poké Balls:</li>
+                    <li class="player-status__item">Great Balls:</li>
+                    <li class="player-status__item">Ultra Balls:</li>
+                    <li class="player-status__item">Master Balls:</li>
+                    <li class="player-status__item">Potions:</li>
+                    <li class="player-status__item">Super Potions:</li>
+                </ul>
+            </div>
+            <div class="player-status__container player-status__container--last">
+                <ul class="player-status__pokemons">
+                    <li class="player-status__pokemon"><img src="">Example</li>
+                    <li class="player-status__pokemon"><img src="">Example</li>
+                    <li class="player-status__pokemon"><img src="">Example</li>
+                    <li class="player-status__pokemon"><img src="">Example</li>
+                    <li class="player-status__pokemon"><img src="">Example</li>
+                    <li class="player-status__pokemon"><img src="">Example</li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="footer chat-log">
+            <h2 class="chat-log__title">Battle Info</h2>
+        </div>
+    </main>
+</body>
+
+</html>

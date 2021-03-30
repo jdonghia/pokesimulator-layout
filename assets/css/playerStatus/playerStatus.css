@@ -1,0 +1,6 @@
+.player-status {
+    display: flex;
+    flex-direction: column;
+    font-size: .8rem;
+    background: rgb(255, 165, 0);
+}
